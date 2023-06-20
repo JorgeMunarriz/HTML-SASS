@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: black;
+}
+.container{
+    background: #202020;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.uno{
+    background: #f13929;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.dos{
+    background: #7250FF;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.tres{
+    background: #01D0FB;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.cuatro{
+    background: #ccf129;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.cinco{
+    background: #49b827;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.seis{
+    background: #ec21e2;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}

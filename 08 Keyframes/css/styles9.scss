@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1b1b1b;
+
+    .container8 {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+
+        .triangle-up {
+            position: relative;
+            display: flex;
+
+            span {
+                border-color: transparent transparent #ddd018 transparent;
+
+                border-style: solid;
+
+                border-width: 0px 40px 60px 40px;
+
+
+                width: 0px;
+
+                position: relative;
+
+                top: 0px;
+                background: #1b1b1b;
+
+                /*position: relative;
+                min-width: 30px;
+                height: 30px;*/
+
+
+                box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #705AFE, 0 0 100px #4fc3dc;
+                margin: 0 4px;
+                border-radius: 5%;
+                rotate: 25%;
+                animation: stars 5s linear infinite;
+                animation-duration: calc(100s/var(--i));
+
+
+                &:nth-child(even) {
+                    background: #FFC107;
+                    box-shadow: 0 0 0 10px #F0DB4F, 0 0 50px #ff2d75, 0 0 100px #F23B00;
+
+                }
+
+            }
+        }
+
+        .triangle-down {
+            position: relative;
+            display: flex;
+
+            span {
+                border-color: transparent transparent #ddd018 transparent;
+
+                border-style: solid;
+
+                border-width: 60px 40px 0px 40px;
+
+                width: 0px;
+
+                position: relative;
+
+                top: 35px;
+
+                /*position: relative;
+                min-width: 30px;
+                height: 30px;*/
+                background: #1b1b1b;
+
+                box-shadow: 0 0 0 10px #4fc3dc44, 0 0 50px #705AFE, 0 0 100px #4fc3dc;
+                margin: 0 4px;
+                border-radius: 5%;
+                rotate: 25%;
+                animation: estrella 5s linear infinite;
+                animation-duration: calc(100s/var(--i));
+            }
+        }
+    }
+
+    @keyframes stars {
+        100% {
+            transform: translateY(50vh) scale(0.10);
+        }
+
+        0% {
+            transform: translateY(-20vh) scale(1);
+        }
+
+        5% {
+            transform: translateX(200vh) scale(0.25);
+        }
+    }
+
+    @keyframes estrella {
+        100% {
+            transform: translateY(50vh) scale(0.10);
+        }
+
+        0% {
+            transform: translateY(-20vh) scale(1);
+        }
+
+        5% {
+            transform: translateX(200vh) scale(0.25);
+        }
+    }
+}
