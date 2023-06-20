@@ -26,7 +26,7 @@ Follow the steps below to set up your development environment:
 
 4. Clone this repository by running the following command in your terminal:
 
-bash
+git bash
 `git clone https://github.com/JorgeMunarriz/HTML-SASS.git`
 
 ### Recommended Extensions for Visual Studio Code
@@ -51,9 +51,10 @@ Open Visual Studio Code and navigate to the project folder.
 
 Install project dependencies by running the following command in the terminal:
 
-bash
+git git bash
 
 `npm install`
+
 Launch the local server to view your project in the browser using Live Server.
 
 Start editing the HTML, Sass, CSS, and JavaScript files according to your needs.
@@ -65,16 +66,108 @@ Fork this repository.
 
 Create a new branch for your changes:
 
-bash
+git git bash
 `git checkout -b your_branch_name`
 
 Make your modifications and commit them:
 
-bash
+git git bash
 
 `git commit -m "Description of your changes"`
 Push your changes to the remote repository:
 
-bash
+git bash
 
 `git push origin your_branch_name`
+
+
+### Extra configuration
+To install the npm, pnpm, and Yarn package managers on your system, follow the instructions below for the tool you want to use:
+
+Installing npm (Node Package Manager)
+npm is automatically installed along with Node.js. Follow these steps to install Node.js and get npm:
+
+Download Node.js from its official website and choose the appropriate version for your operating system.
+
+Run the downloaded installer and follow the instructions in the installation wizard.
+
+Once the installation is complete, open a new terminal window and verify that Node.js and npm are installed correctly by running the following commands:
+
+git bash
+
+`node --version`
+`npm --version`
+
+Both commands should display the respective versions of Node.js and npm without any errors.
+
+Installing pnpm
+To install pnpm, you can use npm by running the following command in your terminal:
+
+git bash
+
+`npm install -g pnpm`
+
+This will install pnpm globally on your system. Verify the installation by running the following command:
+
+git bash
+
+`pnpm --version`
+If the command displays the pnpm version without any errors, it means the installation was successful.
+
+Installing Yarn
+To install Yarn, follow the steps below based on your operating system:
+
+Windows
+Download the Yarn installer from its official website.
+
+Run the downloaded installer and follow the instructions in the installation wizard.
+
+Once the installation is complete, open a new terminal window and verify that Yarn is installed correctly by running the following command:
+
+git bash
+
+`yarn --version`
+
+It should display the Yarn version without any errors.
+
+macOS
+Open the terminal and run the following command to install Yarn using Homebrew:
+
+git bash
+
+`brew install yarn`
+
+Verify the installation by running the following command:
+
+git bash
+
+`yarn --version`
+
+It should display the Yarn version without any errors.
+
+Linux
+On Linux, you can install Yarn using the apt or apt-get package manager. Follow these steps:
+
+Open the terminal and run the following commands to add the Yarn repository:
+
+git bash
+
+`curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -`
+`echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`
+
+Update the packages and install Yarn by running the following commands:
+
+git bash
+
+`sudo apt update`
+`sudo apt install yarn`
+
+Verify the installation by running the following command:
+
+git bash
+
+`yarn --version`
+
+It should display the Yarn version without any errors.
+
+With these instructions, you'll be able to install npm, pnpm, and Yarn on your system according to your preferences. Remember that you only need to choose one of these package managers to use in your projects.
