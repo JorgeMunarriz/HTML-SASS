@@ -1,0 +1,36 @@
+.vinculos{
+    background: black;
+    text-align: justify;
+    color: green;
+    
+}
+
+h1{ color: darkgrey;
+}
+div{color: blue
+
+}
+.segundodiv{ color:blueviolet;}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;}
+p span{
+    color: violet;
+}
+
+.padre{
+    background: red;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+.hijo{
+    background: black;
+    height: 100px;
+    width: 100px;
+    margin:15px;
+    padding: 50px;
+
+}

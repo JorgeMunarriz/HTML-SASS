@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/stylenike.css" />
+    <link rel="shortcut icon" href="img/nike.png" type="image/x-icon" />
+
+    <title>Nike Card</title>
+  </head>
+  <body id="body">
+    <article class="container">
+      <div class="card">
+        <div class="imgBx">
+          <img  src="img/z4.png" alt="imagen zapatilla Nike" width="150px" />
+        </div>
+        <div class="contentbx">
+          <h2 id="colores">Nike shoes</h2>
+          <div class="size">
+            <h3>Size:</h3>
+            <span id="37">37</span>
+            <span>38</span>
+            <span>39</span>
+            <span>40</span>
+          </div>
+          <div class="color" >
+            <h3 >Color</h3>
+            <button onclick="changeColor('#9bdc28');"></button>
+            <button onclick="changeColor('#03a9f4');"></button>
+            <button onclick="changeColor('#e91e63');"></button>
+            <!-- <span id="verde"></span>
+            <span id="blue"></span>
+            <span id="red"></span> -->
+          </div>
+          <a href="./buynow.html">Buy Now</a>
+        </div>
+      </div>
+    </article>
+    <footer>
+      <!--<a href="https://www.flaticon.es/iconos-gratis/nike" title="nike iconos"
+        >Nike iconos creados por Pixel perfect - Flaticon</a> -->
+    </footer>
+    
+    <script>function changeColor(newColor) {
+      var elem = document.getElementById('colores');
+      elem.style.color = newColor;
+   }
+   </script>
+  </body>
+</html>

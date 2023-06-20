@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 50px auto;
+  background-color: #d8dae2;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 56px;
+  width: 90%;
+  min-height: 400px;
+  background: #eff0f1;
+  box-shadow: 0 76px 27px rgba(6, 27, 82, 0.1);
+  border-radius: 26px;
+}
+main .header h1 {
+  color: #291D19;
+}
+main .header .btns {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+main .header .btns .active {
+  color: #fff;
+  background: #bc9682;
+}
+main .header .btns span {
+  padding: 8px 10px;
+  background: #ffffff;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.5s linear;
+}
+main .header .btns span:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+main .cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(250px, 1fr);
+  gap: 20px;
+}
+main .cards .card {
+  overflow: hidden;
+  background: #fff;
+  border-radius: 20px;
+  min-height: 250px;
+  padding: 20px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+main .cards .card .imgs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 220px 80px;
+  gap: 20px;
+}
+main .cards .card .imgs .img {
+  overflow: hidden;
+  border-radius: 16px;
+}
+main .cards .card .imgs .img:first-of-type {
+  grid-column: 1/4;
+}
+main .cards .card .info {
+  color: #0E0E38;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .cards .card .info h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+main .cards .card .info .tag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+main .cards .card .info .tag ion-icon {
+  font-size: 20px;
+  cursor: normal;
+}/*# sourceMappingURL=styles.css.map */
