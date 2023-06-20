@@ -27,6 +27,7 @@ Follow the steps below to set up your development environment:
 4. Clone this repository by running the following command in your terminal:
 
 git bash
+
 `git clone https://github.com/JorgeMunarriz/HTML-SASS.git`
 
 ### Recommended Extensions for Visual Studio Code
@@ -51,7 +52,7 @@ Open Visual Studio Code and navigate to the project folder.
 
 Install project dependencies by running the following command in the terminal:
 
-git git bash
+ git bash
 
 `npm install`
 
@@ -66,14 +67,16 @@ Fork this repository.
 
 Create a new branch for your changes:
 
-git git bash
+git bash
+
 `git checkout -b your_branch_name`
 
 Make your modifications and commit them:
 
-git git bash
+git bash
 
 `git commit -m "Description of your changes"`
+
 Push your changes to the remote repository:
 
 git bash
@@ -112,6 +115,7 @@ This will install pnpm globally on your system. Verify the installation by runni
 git bash
 
 `pnpm --version`
+
 If the command displays the pnpm version without any errors, it means the installation was successful.
 
 Installing Yarn
