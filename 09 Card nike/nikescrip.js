@@ -1,6 +1,6 @@
-function changecolor(newColor){
-    var elem = document.getElementByid('colores');
-    elem.style.color = newColor
-}
+function changeColor(newColor) {
+    var elem = document.getElementById('colores');
+    elem.style.color = newColor;
+ }
 
  
